@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+}
+
+
+
+#navigation {
+    background-color: #E8E0D8;
+}
+
+#topnav {
+    float: right; 
+    margin-bottom: 50px;
+    
+    
+}
+
+a.nav,
+a.about,
+a.portfolio,
+a.contact {
+    font-size: 18px;
+    color: black !important;
+    font-weight: lighter !important;
+    text-decoration: none;
+    padding: 18px 16px;
+    font-family: 'open sans condensed';
+    
+}
+
+
+
