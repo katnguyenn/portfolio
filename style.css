@@ -90,3 +90,26 @@ h3 {
     font-size: 40px;
 }
 
+/* bio */
+
+.bio {
+    background-color: #E8E0D8;
+    padding: 50px;
+}
+
+
+
+a,
+a:link,
+a:visited,
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#phone,
+#github,
+#linkedin {
+    padding-left: 12px;
+}
+
