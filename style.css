@@ -99,17 +99,30 @@ h3 {
 
 
 
-a,
-a:link,
-a:visited,
-a:hover {
-    color: white;
-    font-weight: bold;
-}
-
 #phone,
 #github,
 #linkedin {
     padding-left: 12px;
 }
+
+/* view portfolio arrow */
+
+.viewfolio {
+    font-family: 'open sans condensed';
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-icons,
+#downarrow {
+    text-align: center;
+}
+
+#arrow {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+
+
 
