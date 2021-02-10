@@ -242,3 +242,64 @@ h4 {
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px ) {
+    #intro {
+        flex-direction: column;
+    }
+
+    a.resumebtn,
+    a.resumebtn:link,
+    a.resumebtn:visited,
+    a.resumebtn:hover {
+        width: 25%;
+    }
+
+    .content-overlay {
+        overflow: scroll;
+    }
+
+    #introphoto {
+        width: 100%;
+    }
+
+    .profilepic {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    #line {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+        text-align: center;
+    }
+
+    #pcontain {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .projecdiv {
+        text-align: center;
+    }
+
+    #rightside {
+        width: 100%;
+    }
+
+   #notecolumn,
+   #burgercolumn,
+   #teamcolumn,
+   #nwvegcolumn,
+   #employeecolumn,
+   #weathercolumn {
+    width: 50%;
+   }
+
+}
+
+
