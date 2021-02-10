@@ -242,6 +242,8 @@ h4 {
     }
 }
 
+/* tablet view */
+
 @media only screen and (min-width: 768px) and (max-width: 1024px ) {
     #intro {
         flex-direction: column;
@@ -302,4 +304,73 @@ h4 {
 
 }
 
+/* mobile view */
 
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #notecolumn,
+    #burgercolumn,
+    #teamcolumn,
+    #nwvegcolumn,
+    #employeecolumn,
+    #weathercolumn {
+     width: 50%;
+    }
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    a.resumebtn,
+    a.resumebtn:link,
+    a.resumebtn:visited,
+    a.resumebtn:hover {
+        width: 40%;
+    }
+    
+    #introphoto {
+        width: 100%;
+    }
+
+    .profilepic {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #rightside {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 57px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+
+    #line {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    #bio {
+        width: 100%;
+        text-align: center;
+    }
+
+    #note {
+        width: 100%;
+    }
+
+    #burger {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 374px) and (max-width: 534px) {
+    h2 {
+        font-size: 50px !important;
+    }
+}
