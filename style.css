@@ -219,3 +219,17 @@ a.viewprojects {
     
 }
 
+/* footer */
+
+
+.footer-container {
+    background-color: #E8E0D8;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+h4 {
+    font-size: 12px;
+}
+
