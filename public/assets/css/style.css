@@ -85,7 +85,7 @@ h3 {
     background-color: #F4EBDF;
 }
 
-.tech {
+.technologies h3 {
     font-size: 30px;
 }
 
@@ -285,13 +285,17 @@ h4 {
     h2 {
         font-size: 60px;
     }
+
+
+
+
 }
 
 /* tablet view */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px ) {
     #intro {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     a.resumebtn,
@@ -314,16 +318,17 @@ h4 {
         margin: 0 auto;
     }
 
+    #aboutbio,
+    #aboutbio h3 {
+        text-align: left;
+        margin-top: -20px;
 
-    #line {
-        flex: 0 0 auto;
-        width: 100%;
     }
 
-    #bio {
-        width: 100%;
-        text-align: center;
+    .bio {
+        padding: 0;
     }
+
 
     #pcontain {
         margin-right: auto;
@@ -347,6 +352,10 @@ h4 {
     width: 50%;
    }
 
+   .contactme {
+       left: 45%;
+   }
+
 }
 
 /* mobile view */
@@ -360,11 +369,22 @@ h4 {
     #weathercolumn {
      width: 50%;
     }
+
+    .biopic {
+        width: 90%;
+    }
+
+
 }
 
 
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
+
+    .row {
+        flex-direction: column-reverse;
+    }
+
     a.resumebtn,
     a.resumebtn:link,
     a.resumebtn:visited,
@@ -394,7 +414,7 @@ h4 {
     }
 
 
-    #line {
+    #secondpic {
         flex: 0 0 auto;
         width: 100%;
     }
@@ -404,12 +424,37 @@ h4 {
         text-align: center;
     }
 
+    #biorow {
+        flex-direction: column;
+    }
+
+
+
+
+    #aboutbio {
+        width: 100%;
+        padding: 0;
+    }
+
+    #projectsfolio {
+        flex-direction: column;
+    }
+
     #note {
         width: 100%;
     }
 
     #burger {
         width: 100%;
+    }
+
+    .technologies h3 {
+        font-size: 25px;
+        
+    }
+
+    .contactme {
+        left: 40%;
     }
 }
 
