@@ -1,15 +1,5 @@
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #F9F9F9;
-}
 
 /* navigation */
-
-#navigation {
-    background-color: #E8E0D8;
-}
 
 #topnav {
     float: right; 
@@ -38,14 +28,8 @@ a.contact {
     width: 500px;
     max-width: 100%;
    
-    
-    
 }
 
-.top-container,
-#name {
-    background-color: #E8E0D8;
-}
 
 
 
@@ -90,11 +74,43 @@ h3 {
     font-size: 40px;
 }
 
+
+
+/* technologies */
+
+.technologies {
+    border: 1px solid white;
+    padding: 120px;
+    margin: 50px 20px;
+    background-color: #F4EBDF;
+}
+
+.tech {
+    font-size: 30px;
+}
+
 /* bio */
 
 .bio {
-    background-color: #E8E0D8;
     padding: 50px;
+}
+
+#biorow {
+    margin: 0;
+}
+
+#aboutbio {
+   margin: auto;
+   padding: 40px;
+   text-align: center;
+}
+
+
+.biopic {
+    height: 500px;
+    width: 500px;
+    max-width: 100%;
+    margin-left: 30px;
 }
 
 
@@ -219,11 +235,40 @@ a.viewprojects {
     
 }
 
+/* contact info */
+
+.contactpic {
+    width: 100%;
+    height: 500px;
+}
+
+.contactinfo {
+    position: relative;
+}
+
+.contactme {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    cursor: pointer;
+    font-family: 'open sans condensed';
+    text-align: center;
+    background-color: white;
+    border-color: white;
+    box-shadow: 10px 5px 5px #B4D2E9;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+
+.contactme:active,
+.contactme:hover {
+    border-color: white;
+}
+
 /* footer */
 
 
 .footer-container {
-    background-color: #E8E0D8;
     text-align: center;
     padding-top: 5px;
 }
