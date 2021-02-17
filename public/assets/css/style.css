@@ -143,8 +143,9 @@ h3 {
 }
 
 #arrow {
-    margin-top: 10px;
-    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
 }
 
 /* portfolio */
@@ -461,7 +462,9 @@ h4 {
     }
 
 
-
+    #arrow {
+        margin-top: 50px;
+    }
 
     #aboutbio {
         width: 100%;
@@ -476,13 +479,12 @@ h4 {
         flex-direction: column;
     }
 
-    #note {
-        width: 100%;
-    }
-
+    #note,
     #burger {
         width: 100%;
     }
+
+
 
     .technologies {
         padding: 35px;
@@ -494,7 +496,7 @@ h4 {
     }
 
     .contactme {
-        left: 36%;
+        left: 40%;
     }
 }
 
