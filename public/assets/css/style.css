@@ -205,13 +205,17 @@ h3 {
 #employee-tracker,
 #weather-dashboard,
 #note {
-    height: 360px;
+    height: auto;
     width: 100%;
-    max-width: 100%;
-    
-    
-    
+    max-width: 100%; 
+} 
+
+#nwveg,
+#employee-tracker {
+    height: 330px;
 }
+
+
 
 
 a,
@@ -290,9 +294,6 @@ h4 {
         font-size: 60px;
     }
 
-
-
-
 }
 
 /* tablet view */
@@ -314,6 +315,7 @@ h4 {
     }
 
     #introphoto {
+        height: 100%;
         width: 100%;
     }
 
@@ -414,12 +416,15 @@ h4 {
     }
     
     #introphoto {
+        height: 100%;
         width: 100%;
     }
 
     .profilepic {
         display: block;
         margin: 0 auto;
+        height: 100%;
+        width: 100%;
     }
 
     #rightside {
