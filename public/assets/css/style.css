@@ -1,6 +1,12 @@
-body {
-    overflow-x:hidden;
+html, body {
+    overflow-x: hidden;
+    
 }
+
+body {
+    width: 100%;
+}
+
 /* navigation */
 
 #topnav {
@@ -197,20 +203,16 @@ h3 {
 #teamprof,
 #nwveg,
 #employee-tracker,
-#weather-dashboard {
+#weather-dashboard,
+#note {
     height: 360px;
+    width: 100%;
     max-width: 100%;
     
     
     
 }
 
-#note {
-    height: 360px;
-    width: 450px;
-    max-width: 100%;
-   
-}
 
 a,
 a:link,
@@ -318,17 +320,22 @@ h4 {
     .profilepic {
         display: block;
         margin: 0 auto;
+        height: 100%;
+        width: 100%;
     }
 
     #aboutbio,
     #aboutbio h3 {
         text-align: left;
-        margin-top: -20px;
 
     }
 
     .bio {
         padding: 0;
+    }
+
+    .biopic {
+        margin-top: 80px;
     }
 
 
@@ -362,6 +369,18 @@ h4 {
 
 /* mobile view */
 
+@media only screen and (min-width: 768px) and (max-width: 812px) {
+    #notecolumn,
+    #burgercolumn,
+    #teamcolumn,
+    #nwvegcolumn,
+    #employeecolumn,
+    #weathercolumn {
+     width: 100%;
+    }
+
+}
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     #notecolumn,
     #burgercolumn,
@@ -373,7 +392,7 @@ h4 {
     }
 
     .biopic {
-        width: 90%;
+        width: 100%;
     }
 
 
@@ -407,6 +426,8 @@ h4 {
         width: 100%;
     }
 
+    
+
     h2 {
         font-size: 57px;
     }
@@ -438,6 +459,10 @@ h4 {
         padding: 0;
     }
 
+    #aboutbio h3 {
+        margin-top: 15px;
+    }
+
     #projectsfolio {
         flex-direction: column;
     }
@@ -450,31 +475,34 @@ h4 {
         width: 100%;
     }
 
+    .technologies {
+        padding: 35px;
+    }
+
     .technologies h3 {
         font-size: 25px;
         
     }
 
     .contactme {
-        left: 40%;
+        left: 36%;
     }
 }
+
+
 
 @media only screen and (min-width: 374px) and (max-width: 575px) {
-    
-
-    .biopic {
-        margin-left: 5px;
-    }
-}
-
-
-@media only screen and (min-width: 374px) and (max-width: 534px) {
     h2 {
         font-size: 50px !important;
     }
 
+    .bio {
+        padding: 0px;
+    }
+
     .biopic {
+        height: 100%;
+        width: 100%;
         margin-left: 5px;
     }
 }
