@@ -212,8 +212,10 @@ h3 {
 } 
 
 #nwveg,
-#employee-tracker {
-    height: 330px;
+#employee-tracker,
+#weather-dashboard,
+#note {
+    height: 285px;
 }
 
 
