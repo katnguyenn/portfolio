@@ -88,12 +88,18 @@ h3 {
 
 .technologies {
     border: 1px solid white;
-    padding: 120px;
+    padding: 80px 180px;
     margin: 50px 20px;
     background-color: #F4EBDF;
 }
 
 .technologies h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.technologies p {
+    text-align: center;
     font-size: 30px;
 }
 
@@ -335,6 +341,12 @@ h4 {
 
     }
 
+    .technologies {
+    
+        padding: 80px;
+        
+    }
+
     .bio {
         padding: 0;
     }
@@ -383,6 +395,8 @@ h4 {
     #weathercolumn {
      width: 100%;
     }
+
+
 
 }
 
@@ -446,6 +460,11 @@ h4 {
 
     h3 {
         font-size: 30px;
+    }
+
+    .technologies p {
+        text-align: center;
+        font-size: 20px;
     }
 
 
