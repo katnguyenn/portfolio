@@ -211,7 +211,7 @@ h3 {
 #nwveg,
 #employee-tracker,
 #weather-dashboard,
-#note {
+#edirectory {
     height: auto;
     width: 100%;
     max-width: 100%; 
@@ -220,7 +220,7 @@ h3 {
 #nwveg,
 #employee-tracker,
 #weather-dashboard,
-#note {
+#edirectory {
     height: 285px;
 }
 
@@ -369,7 +369,7 @@ h4 {
         width: 100%;
     }
 
-   #notecolumn,
+   #edirectorycolumn,
    #burgercolumn,
    #teamcolumn,
    #nwvegcolumn,
@@ -387,7 +387,7 @@ h4 {
 /* mobile view */
 
 @media only screen and (min-width: 768px) and (max-width: 812px) {
-    #notecolumn,
+    #edirectorycolumn,
     #burgercolumn,
     #teamcolumn,
     #nwvegcolumn,
@@ -401,7 +401,7 @@ h4 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    #notecolumn,
+    #edirectorycolumn,
     #burgercolumn,
     #teamcolumn,
     #nwvegcolumn,
@@ -500,7 +500,7 @@ h4 {
         flex-direction: column;
     }
 
-    #note,
+    #edirectory,
     #burger {
         width: 100%;
     }
