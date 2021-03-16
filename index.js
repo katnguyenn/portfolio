@@ -1,5 +1,4 @@
-// takes user to top of page when they hit refresh button
-window.location.hash = "";
-//removes # sign in URL
-history.pushState("", document.title, window.location.pathname);
-
+// removes # in URL
+$(window).on('hashchange', function(e){
+    history.replaceState ("", document.title, window.location.pathname);
+});
