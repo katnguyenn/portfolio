@@ -220,7 +220,7 @@ h3 {
 #burger,
 #teamprof,
 #nwveg,
-#employee-tracker,
+#google-books,
 #weather-dashboard,
 #edirectory {
     height: auto;
@@ -229,7 +229,7 @@ h3 {
 } 
 
 #nwveg,
-#employee-tracker,
+#google-books,
 #weather-dashboard,
 #edirectory { 
     height: 330px;
@@ -384,7 +384,7 @@ h4 {
    #burgercolumn,
    #teamcolumn,
    #nwvegcolumn,
-   #employeecolumn,
+   #bookcolumn,
    #weathercolumn {
     width: 50%;
    }
@@ -402,7 +402,7 @@ h4 {
     #burgercolumn,
     #teamcolumn,
     #nwvegcolumn,
-    #employeecolumn,
+    #bookcolumn,
     #weathercolumn {
      width: 100%;
     }
@@ -416,7 +416,7 @@ h4 {
     #burgercolumn,
     #teamcolumn,
     #nwvegcolumn,
-    #employeecolumn,
+    #bookcolumn,
     #weathercolumn {
      width: 100%;
     }
