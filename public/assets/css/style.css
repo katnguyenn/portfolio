@@ -221,10 +221,8 @@ h3 {
 
 #burger,
 #teamprof,
-#nwveg,
-#google-books,
-#weather-dashboard,
-#edirectory {
+#weather-dashboard
+ {
     height: auto;
     width: 100%;
     max-width: 100%; 
@@ -232,9 +230,11 @@ h3 {
 
 #nwveg,
 #google-books,
-#weather-dashboard,
-#edirectory { 
+#laurac
+ { 
     height: 330px;
+    width: 100%;
+    max-width: 100%
 }
 
 
@@ -382,14 +382,24 @@ h4 {
         width: 100%;
     }
 
-   #edirectorycolumn,
+  
    #burgercolumn,
+   #lauracolumn
    #teamcolumn,
    #nwvegcolumn,
    #bookcolumn,
    #weathercolumn {
     width: 50%;
    }
+
+    #nwveg,
+    #google-books,
+    #laurac
+ { 
+    height: auto;
+    width: 100%;
+    max-width: 100%
+}
 
    .contactme {
        left: 45%;
@@ -444,26 +454,34 @@ h4 {
 
 
 
-    #edirectorycolumn,
     #burgercolumn,
     #teamcolumn,
     #nwvegcolumn,
     #bookcolumn,
-    #weathercolumn {
+    #weathercolumn,
+    #lauracolumn {
      width: 100%;
     }
 
-
+    #nwveg,
+    #google-books,
+    #laurac
+ { 
+    height: auto;
+    width: 100%;
+    max-width: 100%
+}
 
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    #edirectorycolumn,
+ 
     #burgercolumn,
     #teamcolumn,
     #nwvegcolumn,
     #bookcolumn,
-    #weathercolumn {
+    #weathercolumn,
+    #lauracolumn {
      width: 100%;
     }
 
@@ -471,7 +489,14 @@ h4 {
         width: 100%;
     }
 
-
+    #nwveg,
+    #google-books,
+    #laurac
+ { 
+    height: auto;
+    width: 100%;
+    max-width: 100%
+}
 }
 
 
@@ -599,12 +624,19 @@ h4 {
         flex-direction: column;
     }
 
-    #edirectory,
+  
     #burger {
         width: 100%;
     }
 
-
+    #nwveg,
+    #google-books,
+    #laurac
+ { 
+    height: auto;
+    width: 100%;
+    max-width: 100%
+}
 
     .technologies {
         padding: 35px;
@@ -636,4 +668,13 @@ h4 {
         width: 100%;
         margin-left: 5px;
     }
+
+    #nwveg,
+    #google-books,
+    #laurac
+ { 
+    height: auto;
+    width: 100%;
+    max-width: 100%
+}
 }
