@@ -20,14 +20,14 @@ body {
 
 /* navigation */
 
-#topnav {
+.topnav {
     float: right; 
     margin-bottom: 50px;
     
     
 }
 
-a.nav,
+a.topnav,
 a.about,
 a.portfolio,
 a.contact {
@@ -39,6 +39,8 @@ a.contact {
     font-family: 'open sans condensed';
     
 }
+
+
 
 /* profile pic and name */
 
@@ -398,6 +400,50 @@ h4 {
 /* mobile view */
 
 @media only screen and (min-width: 768px) and (max-width: 812px) {
+
+       /* Style the navigation menu */
+ .topnav {
+    background-color: transparent;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a transparent background color on mouse-over */
+  .topnav a:hover {
+    background-color: transparent;
+    color: black;
+  }
+  
+  /* Style the active link */
+  .active {
+    background-color: #DEA27D;
+    color: white;
+  } 
+
+
+
     #edirectorycolumn,
     #burgercolumn,
     #teamcolumn,
@@ -431,6 +477,48 @@ h4 {
 
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+   
+    /* Style the navigation menu */
+ .topnav {
+    background-color: transparent;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a transparent background color on mouse-over */
+  .topnav a:hover {
+    background-color: transparent;
+    color: black;
+  }
+  
+  /* Style the active link */
+  .active {
+    background-color: #DEA27D;
+    color: white;
+  } 
 
     .row {
         flex-direction: column-reverse;
